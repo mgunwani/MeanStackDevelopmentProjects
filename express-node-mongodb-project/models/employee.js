@@ -4,7 +4,7 @@
  * define the shape of document within that collection.
  */
 
-var mongoose = require('mongoose');
+var mongoose = require('./db')
 
 var employeeSchema = new mongoose.Schema({
     name: String,
